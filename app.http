@@ -1,0 +1,38 @@
+###
+POST http://localhost:4000/register/
+Content-Type: application/json
+
+{
+    "name": "zishan",
+    "email": "zishan@gmail.com",
+    "password": "zish6708"
+}
+
+###
+POST http://localhost:4000/login/
+Content-Type: application/json
+
+{
+    "email": "zishan@gmail.com",
+    "password": "zish6708"
+}
+
+###
+GET http://localhost:4000/
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY3M2NjNjg2NjdhMWFmOGNhNjQ1YzNkIn0sImlhdCI6MTcxODg2NzEzNSwiZXhwIjoxNzE4ODcwNzM1fQ.bVQyHjBr4_SwoL4McYCIZDey5sTgeRSmdgF_07-L5iI
+
+
+###
+PUT http://localhost:4000/user/6673db875461d6f5a2211015
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY3M2NjNjg2NjdhMWFmOGNhNjQ1YzNkIn0sImlhdCI6MTcxODg2NzEzNSwiZXhwIjoxNzE4ODcwNzM1fQ.bVQyHjBr4_SwoL4McYCIZDey5sTgeRSmdgF_07-L5iI
+Content-Type: application/json
+
+{
+    "name": "zishan",
+    "email": "zishan@gmail.com",
+    "password": "zish6767"
+}
+
+###
+DELETE http://localhost:4000/user/6673db875461d6f5a2211015
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNjY3M2NjNjg2NjdhMWFmOGNhNjQ1YzNkIn0sImlhdCI6MTcxODg2NzEzNSwiZXhwIjoxNzE4ODcwNzM1fQ.bVQyHjBr4_SwoL4McYCIZDey5sTgeRSmdgF_07-L5iI
